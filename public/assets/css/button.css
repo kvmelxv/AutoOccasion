@@ -1,0 +1,42 @@
+.error-btn {
+    background: var(--error);
+    color: var(--white);
+    box-shadow: var(--shadow-2);
+  }
+  .active.error-btn, .error-btn:hover, .error-btn:focus {
+    background: var(--error-dark);
+    color: var(--white);
+    box-shadow: var(--shadow-4);
+  }
+  .deactive.error-btn {
+    background: var(--error-light);
+    color: var(--dark-3);
+    pointer-events: none;
+  }
+  
+  .error-btn-outline {
+    border-color: var(--primary);
+    color: var(--error);
+  }
+  .active.error-btn-outline, .error-btn-outline:hover, .error-btn-outline:focus {
+    background: var(--error-dark);
+    color: var(--white);
+  }
+  .deactive.error-btn-outline {
+    color: var(--dark-3);
+    border-color: var(--error-light);
+    pointer-events: none;
+  }
+  
+  .error-btn-link {
+    color: var(--error);
+  }
+  .active.error-btn-link, .error-btn-link:hover, .error-btn-link:focus {
+    color: var(--error-dark);
+  }
+  .deactive.error-btn-link {
+    color: var(--dark-3);
+    pointer-events: none;
+  }
+
+  

@@ -1,0 +1,62 @@
+.custom-select-border {
+  border-color: rgba(0, 0, 0, 0.1); /* Couleur de la bordure presque transparente */
+  border-radius: 10px; /* Rayon de bordure arrondie */
+  padding: 5px;
+}
+
+.bordure {
+  border-radius: 15px;
+}
+
+.color-label {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.custom-textarea {
+  height: 150px; /* Hauteur fixe de 150 pixels */
+  /* Ou */
+  max-height: 300px; /* Hauteur maximale de 300 pixels */
+  /* Ou */
+  min-height: 100px; /* Hauteur minimale de 100 pixels */
+  /* Ou toute autre valeur de hauteur appropriée */
+}
+
+.edit-img {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-img-edit {
+  position: relative;
+  box-sizing: border-box;
+  width: 25%;
+  height: 200px;
+  padding: 5px;
+}
+
+.container-img-edit > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.btn-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 101, 101); /* Couleur du bouton *//* Couleur du texte */
+  border: none; /* Supprime la bordure */
+  border-radius:25%; /* Ajoute un peu de courbure aux coins */
+  cursor: pointer; /* Change le curseur lorsque survolé */
+  transition-duration: 0.5s;
+}
+
+.btn-delete:hover {
+  transform: scale(1.10);
+  background-color: red;
+  transition-duration: 0.5s;
+}
